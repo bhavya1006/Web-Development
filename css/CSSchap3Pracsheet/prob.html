@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Layout</title>
+    <style>
+        .box1{
+            margin: 24px;
+            border: 1px dashed orangered;
+            
+        }
+        .content{
+            margin: 30px 35px;
+            border: 1.5px solid black;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .box2{
+            margin: 20px 10px 15px 36px;
+            border: 2px double royalblue;
+        }
+        .img1{
+            border: 3px dotted lime;
+        }
+        .img2{
+            border: 3px dotted lime;
+        }
+        </style>
+</head>
+<body>
+    <header class="box1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, nisi.
+    
+    <div class="content">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime aliquid sunt voluptates quibusdam pariatur quidem, officia placeat officiis reprehenderit ut.
+    </div>
+</header>
+    <footer class="box2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla reprehenderit corporis consectetur sint quia nobis.
+    </footer>
+    <br><br>
+    <answer class="prob3">
+        3) Yes, Margin collapse happended between the content box and footer box2. As content box had margin of 30px at bottom was taken over the footer top margin which was 20px.
+<br><br>
+        <img src="content.png" width="750" class="img1" alt="content_margin">
+        <img src="footer.png" width="750" class="img2" alt="footer_margin">
+        <p align="center"><i>Margin Collapse Can be observed in above two images</i></p>
+    </answer>
+    
+</body>
+</html>
+
+
