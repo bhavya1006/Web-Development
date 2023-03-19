@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 80px;
+    /* text-align: center; */
+    font-family: 'Courier New', Courier, monospace;
+}
+.left{
+    background-color: red;
+    width: 50%;
+    height: 90vh;
+    display: inline-block;
+}
+.right{
+    background-color: green;
+    width: 50%;
+    height: 90vh;
+    display: inline-block;
+}
+footer{
+    background-color:antiquewhite;
+    color: darkblue;
+    height: 36px;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-transform: uppercase;
+}
+nav ul li a{
+    color: wheat;
+    text-decoration: none;
+}
+.content1{
+    display: inline-block;
+    width: 50%;
+    background-color: purple;
+    visibility: hidden;
+}
+.content2{
+    display: inline-block;
+    width: 50%;
+    background-color: blueviolet;
+}
+.content3{
+    display: inline-block;
+    width: 50%;
+    background-color: purple;
+    display: none;
+}
+.content4{
+    display: inline-block;
+    width: 50%;
+    background-color: blueviolet;
+}
