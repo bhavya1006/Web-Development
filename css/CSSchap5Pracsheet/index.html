@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Problem Sheet</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .list1 li{
+            display: inline;
+            font-size: 2vh;
+        }
+        header{
+            padding: 25px;
+            background-color: black;
+            color: aliceblue;
+            position: sticky;
+            top: 0;
+            z-index: 3;
+            /* z-index: 4; */
+        }
+        .container{
+            min-height: 100vh;
+            background-color: aquamarine;
+            position: relative;
+            z-index: 4;
+            /* z-index: 3; */
+        }
+        .list2{
+            color: white;
+            list-style:square inside; /*url('gitty123.ico');*/
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="list1">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <ul class="list2">
+            <li>Sour</li>
+            <li>Soup</li>
+            <li>Soul</li>
+        </ul>
+    </div>
+</body>
+</html>
