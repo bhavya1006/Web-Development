@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating image</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 10vh;
+            background-color: rgb(176, 19, 51);
+        }
+        main{
+            height: 899px;
+            width: 100vw;
+            display: inline-flex;
+            background-color: rgb(69, 145, 189);
+            justify-content: center;
+            align-items:center;
+        }
+        img{
+            border-radius: 40%;
+            animation: rotate 2s infinite;
+        }
+        @keyframes rotate {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(1080deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <img src="Tree.jpg" alt="Tree" width="400px">
+    </main>
+</body>
+</html>

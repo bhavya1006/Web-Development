@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 455px;
+        }
+        .box{
+            /* display: inline-flex; */
+            /* border: 2px solid black; */
+            /* transform: translate(134px ,56px) rotate(0.5turn); */
+            /* transform-origin: 0; */
+            /* transform: scale(4,7); */
+            /* transform: rotatex(10deg); */
+            width: 100vw;
+            height: 10vh;
+        }
+        /* .box:hover{ */
+            /* border: 4px solid black; */
+            /* height: 45vh;
+            width: 50vw; */
+            /* font-size: 4vh; */
+            /* margin-top: 50px; */
+            /* transition-property: width margin font-size; */
+            /* transition-duration: 1s; */
+            /* transition-timing-function: ease-in; */
+        /* } */
+        img{
+            display: inline;
+            width: 546px;
+            padding: 2px;
+            border: 3px solid black;
+            /* transition-property: width;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+            transition-delay: 3s; */
+            transition: width 1s ease-in-out 2s;
+        }
+        /* img:hover{
+            width: 56px;
+        } */
+        .container{
+            display: inline-flex;
+            height: 70vh;
+            width: 100vw;;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="box">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi exercitationem, impedit fugiat dignissimos velit minima iste. Officiis neque, iusto eos vitae recusandae hic fuga quia praesentium. Optio iusto itaque eos ducimus natus illum sit adipisci?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae delectus neque eum quas consequatur! At amet, ab vitae, facere ea perferendis hic reiciendis rerum repellat voluptatem id quaerat saepe obcaecati doloremque, nulla enim ullam illum.
+        </div> -->
+        <div class="imf">
+            <img id="myImage" src="tree.jpg" alt="tree">
+            <button id="btn">Toggle</button>
+        </div>
+    </div>
+</body>
+<script>
+    
+    btn.addEventListener("click",()=>{
+        if (myImage.style.width ="546px") {
+            myImage.style.width = "146px";
+        }
+        // else if (myImage.style.width = "146px") {
+        //     myImage.style.width = "546px";
+        // }
+    })
+</script>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar from transition</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .progress{
+            height: 3px;
+            width: 2vw;
+            background-color: hsla(16, 100%, 50%, 0.603);
+        }
+        .progress:hover{
+            width: 100vw;
+            transition: width 1s ease-out;
+        }
+        header{
+            height: 70px;
+            background-color: black;
+        }
+        main{
+            height: 899px;
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="progress"></div>
+    </header>
+    <main></main>
+</body>
+</html>
