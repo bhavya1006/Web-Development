@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items : center;
+
+            /* animation-name: withAnimation;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: 3;
+            animation-direction: alternate-reverse; */
+            /* animation: withAnimation 3s ease-in-out 3s 3 alternate-reverse; */
+        }
+        img{
+            animation: withAnimation2 1s ease-in-out 0.5s 4 reverse;
+        }
+        @keyframes withAnimation {
+            from{
+                width: 60px;
+                height: 60px;
+            }
+            to{
+                width: 444px;
+                height: 344px;
+            }
+        }
+        @keyframes withAnimation2 {
+            0%{
+                width: 60px;
+                height: 60px;
+            }
+            20%{
+                width: 203px;
+                height: 160px;
+            }
+            100%{
+                width: 444px;
+                height: 344px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- <div class="box">This is me.
+        </div> -->
+        <img src="dragon.jpg" alt="dragon" height="344px">
+    </div>
+</body>
+</html>
