@@ -17,6 +17,6 @@ Frontend is the field of a developer to make website more interactive, convenien
 # Back-end Development
 
 <h3>
-Back-end is the backbone of a website, to make website interactive, much more responsive* (*- Important in any website today -), ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, and servers. and funtional brain of a website. This field is pretty much unseen by end-user but required for development of website. Languages like: JavaScript, Python, SQL, Ruby, C#.
+Back-end is the backbone of a website, to make website interactive, much more responsive* (*- Important in any website today -), ensure the website performs correctly, focusing on databases, back-end logic, application programming interface (APIs), architecture, servers and functional brain of a website. This field is pretty much unseen by end-user but required for development of website. Languages like: JavaScript, Python, SQL, Ruby, C#.
 </h3>
 <img src='https://dresma.ai/wp-content/uploads/2022/01/Back-End-Developer-Node-JS-2.gif' alt='Back-end' height=350>
